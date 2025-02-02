@@ -6,22 +6,25 @@ theme = "lynx"
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
-[params.author]
-  name = "Mirai Kumiko"
-  headline = "My example link tree^^~"
-  image = "images/avatar.jpg"
-  links = [
-    { link = { href = "https://example.com", text = "Website" } },
-    { github = "https://example.com" },
-    { x = "https://example.com" },
-    { youtube = "https://example.com" },
-    { twitch = "https://example.com" },
-    { instagram = "https://example.com" },
-    { linkedin = "https://example.com" },
-    { mastodon = "https://example.com" },
-    { bluesky = "https://example.com" },
-    { patreon = "https://example.com" },
-  ]
+[params]
+  attribution = false
+
+  [params.author]
+    name = "Mirai Kumiko"
+    headline = "My example link tree^^~"
+    image = "images/avatar.jpg"
+    links = [
+      { link = { href = "https://example.com", text = "Website" } },
+      { github = "https://example.com" },
+      { x = "https://example.com" },
+      { youtube = "https://example.com" },
+      { twitch = "https://example.com" },
+      { instagram = "https://example.com" },
+      { linkedin = "https://example.com" },
+      { mastodon = "https://example.com" },
+      { bluesky = "https://example.com" },
+      { patreon = "https://example.com" }
+    ]
 
 [markup.highlight]
   noClasses = false
