@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://mk-link-tree.netlify.app'
 languageCode = 'en-us'
 title = 'Link Tree'
 theme = "lynx"
@@ -10,7 +10,7 @@ disableKinds = ["taxonomy", "term"]
   attribution = false
 
   [params.author]
-    name = "Mirai Kumiko"
+    name = "Your Name"
     headline = "My example link tree^^~"
     image = "images/avatar.jpg"
     links = [
